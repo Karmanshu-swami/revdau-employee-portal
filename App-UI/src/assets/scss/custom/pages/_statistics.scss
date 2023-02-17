@@ -1,0 +1,196 @@
+.avatar {
+    height: 50px;
+    width: 50px;
+    background-color: #7fffd4;
+    margin-right: 10px;
+    border-radius: 50px;
+  }
+  .main {
+    padding: 2px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(125deg, #ff8639 42%, #ff553c 63%);
+  }
+  .detail1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .dashboard {
+    display: flex;
+    flex-direction: row;
+  
+    .leave-list {
+      padding: 15px;
+      width: 100%;
+  
+      .leave-types {
+        display: flex;
+        justify-content: space-between;
+      }
+      .leave-card1 {
+        border: #3d3a92 1px solid;
+        // background: linear-gradient(125deg, #ff8639 42%, #ff553c 63%);
+  
+        box-shadow: 4px 0px 0px #3d3a92;
+        border-radius: 10px;
+        padding: 15px 40px;
+        margin: 0 5px;
+        background-color: #d5d4ff;
+        width: 15rem;
+  
+        .no-of-leaves {
+          display: flex;
+          flex-direction: row;
+        }
+  
+        h2,
+        h4,
+        h5 {
+          color: #3d3a92;
+        }
+      }
+      .leave-card2 {
+        border: #ff4b4b 1px solid;
+        box-shadow: 4px 0px 0px #ff4b4b;
+        border-radius: 10px;
+        padding: 15px 40px;
+        margin: 0 5px;
+        background-color: #ffcfcf;
+        width: 15rem;
+  
+        .no-of-leaves {
+          display: flex;
+          flex-direction: row;
+        }
+  
+        h2,
+        h4,
+        h5 {
+          color: #953030;
+        }
+      }
+      .leave-card3 {
+        border: #6abf3c 1px solid;
+        box-shadow: 4px 0px 0px #6abf3c;
+        border-radius: 10px;
+        padding: 15px 40px;
+        margin: 0 5px;
+        background-color: #ccffb0;
+        width: 15rem;
+  
+        .no-of-leaves {
+          display: flex;
+          flex-direction: row;
+        }
+  
+        h2,
+        h4,
+        h5 {
+          color: #4e882f;
+        }
+      }
+      .leave-card4 {
+        border: #a37c34 1px solid;
+        box-shadow: 4px 0px 0px #a37c34;
+        border-radius: 10px;
+        padding: 15px 40px;
+        margin: 0 5px;
+        background-color: #ffe9c1;
+        width: 15rem;
+  
+        .no-of-leaves {
+          display: flex;
+          flex-direction: row;
+        }
+  
+        h2,
+        h4,
+        h5 {
+          color: #a37c34;
+        }
+      }
+    }
+  }
+  .time-sheet {
+    padding: 20px;
+    .timesheet-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  
+      .timesheet-card1 {
+        padding: 5px 15px;
+        border: #1f89a9 1px solid;
+        background-color: #95e6ff;
+        box-shadow: 4px 0px 0px #1f89a9;
+        width: 300px;
+        color: #1f89a9;
+        border-radius: 10px;
+  
+        .timesheet-h,
+        .timesheet-n {
+          color: #1f89a9;
+          font-size: 23px;
+          font-weight: bolder;
+        }
+      }
+      .timesheet-card2 {
+        padding: 5px 15px;
+        border: #1d9928 1px solid;
+        box-shadow: 4px 0px 0px #1d9928;
+        background-color: #a6ffad;
+        width: 300px;
+        color: #1d9928;
+        border-radius: 10px;
+  
+        .timesheet-h,
+        .timesheet-n {
+          font-size: 23px;
+          font-weight: bolder;
+          color: #1d9928;
+        }
+      }
+      .timesheet-card3 {
+        padding: 5px 15px;
+        border: #da6d29 1px solid;
+        box-shadow: 4px 0px 0px #da6d29;
+        width: 300px;
+        border-radius: 10px;
+  
+        background-color: #ffc9a8;
+        color: #da6d29;
+  
+        .timesheet-h,
+        .timesheet-n {
+          color: #944b1e;
+          font-size: 23px;
+          font-weight: bolder;
+        }
+      }
+    }
+    .timing {
+      display: flex;
+      flex-direction: row;
+      h5 {
+        margin-top: 5px;
+      }
+    }
+  }
+  
+  .out-of {
+    margin-top: 5px;
+  }
+  .hr {
+    width: 10px;
+  }
+  
+  .vr {
+    width: 100%;
+    height: 0.7px;
+    background-color: rgb(104, 104, 104);
+  }
+  

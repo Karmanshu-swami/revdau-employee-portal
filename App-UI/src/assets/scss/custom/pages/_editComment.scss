@@ -1,0 +1,47 @@
+.details_card {
+  // margin: auto;
+  // width: 70%;
+
+  .detailPage {
+    margin: 10px 0;
+    box-shadow: -5px 0px 0px #e3e3e3;
+  }
+}
+.details_heading {
+  color: rgb(147, 147, 147);
+}
+.details_main {
+  height: 100%;
+}
+.project-name {
+  color: #5c54ab;
+  font-size: xxx-large;
+  padding: 20px 0;
+}
+.details_h3 {
+  padding: 0 0 20px 0;
+}
+.details_p {
+  font-weight: bolder;
+}
+.task-button {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+}
+// .decsription-textarea,
+// .remark-input {
+//   outline: none;
+//   border-color: white;
+// }
+
+.task-name {
+  padding-bottom: 10px;
+}
+.detail-heading {
+  padding-bottom: 0px;
+  font-size: 24px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}

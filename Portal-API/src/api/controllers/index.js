@@ -1,0 +1,13 @@
+exports.UserController = require('./user');
+exports.empMasterController = require('./empMaster');
+exports.KraController = require('./kra');
+exports.LeaveController = require('./leave');
+exports.companyPolicyController = require('./companyPolicy');
+exports.finalReviewController = require('./finalReview');
+exports.holidayCalenderController = require('./holidayCalender');
+exports.policyMasterController = require('./policyMaster');
+exports.jobHistoryController = require('./jobHistory');
+exports.compensationDetailController = require('./compensationDetail');
+exports.weeklyTimeSheetController = require('./weeklyTimeSheet');
+exports.certificationController = require('./certification');
+exports.taskTrackerController = require('./taskTracker');
